@@ -1,0 +1,109 @@
+body {
+  font-weight: 900;
+}
+.container {
+  background-color: black;
+  position: relative;
+  padding: 5% 5% 5% 5%;
+  text-align: center;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+input {
+  background-color: floralwhite;
+  color: rgb(150, 12, 53);
+  border-radius: 5px;
+  min-width: 70%;
+  text-shadow: coral;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px;
+  border: none;
+}
+
+li {
+  list-style: none;
+  padding: 10px 20px;
+  color: teal;
+  text-transform: capitalize;
+  font-weight: 800;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border: 2px solid #025f70;
+  border-radius: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  transition: all 0.75s ease;
+  -webkit-transition: all 0.75s ease;
+  -moz-transition: all 0.75s ease;
+  -ms-transition: all 0.75s ease;
+  -o-transition: all 0.75 ease;
+}
+
+li:hover {
+  color: black;
+  background-color: darkorange;
+}
+
+li > button {
+  font-weight: normal;
+  background: none;
+  border: none;
+  float: right;
+  color: #025f70;
+  font-weight: 1000;
+}
+
+button {
+  border: none;
+  padding: 7px 14px;
+  border-radius: 5px;
+  color: black;
+  background-color: skyblue;
+  transition: all 0.75s ease;
+  -webkit-transition: all 0.75s ease;
+  -moz-transition: all 0.75s ease;
+  -ms-transition: all 0.75s ease;
+  -o-transition: all 0.75 ease;
+  font-weight: normal;
+}
+
+button:hover {
+  background-color: #02798f;
+  color: #ffcd5d;
+}
+
+.ins {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: coral;
+}
+h2 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 1000;
+}
+
+.delete {
+  display: none;
+}
+
+.done {
+  background: #51df70 !important;
+  color: #00891e;
+}
+
+h1 {
+  font-size: 5ch;
+}
+
+h2 {
+  font-size: 4ch;
+}
+h3 {
+  font-size: 3ch;
+  color: aliceblue;
+}
+h4 {
+  font-size: 2ch;
+}
